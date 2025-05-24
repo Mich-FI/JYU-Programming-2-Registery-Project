@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+        <buttons>
+          <Button mnemonicParsing="false" text="OK" translateX="-10.0" />
+        </buttons>
+      </ButtonBar>
+   </bottom>
+   <center>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+         <children>
+            <Polygon fill="DODGERBLUE" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" scaleX="0.5" scaleY="0.5" stroke="WHITE" strokeMiterLimit="1.0" strokeType="INSIDE" strokeWidth="3.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Polygon>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tiedosto laskettelijat/nimet.dat ei aukea." translateX="-20.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </center>
+</BorderPane>
